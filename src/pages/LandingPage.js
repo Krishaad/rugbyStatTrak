@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
+import Navbar from "../components/navbar";
 
 function LandingPage() {
   return (
@@ -54,6 +54,7 @@ function LandingPage() {
 
 const styles = {
   header: {
+    padding: "30px",
     textAlign: "center",
   },
   mainCont: {

@@ -94,12 +94,10 @@ const styles = {
 
   leftContainer: {
     marginTop: "90px",
-
     padding: "15px",
     overflowy: "auto",
     maxHeight: "150px",
     float: "left",
-
     width: "600px",
   },
   rightContainer: {

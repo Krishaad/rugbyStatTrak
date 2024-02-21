@@ -4,7 +4,6 @@ import AthletePopUp from "./AthletePopUp";
 const AthletesInGivenActivity = ({ activityId, onAthleteClick }) => {
   const [athletes, setAthletes] = useState([]);
   const [selectedAthlete, setSelectedAthlete] = useState(null);
-  const [isPopUP, setPopUp] = useState(null);
 
   useEffect(() => {
     const fetchAthletes = async () => {
